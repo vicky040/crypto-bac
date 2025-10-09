@@ -13,7 +13,7 @@ export const app = express();
 app.use(cookieParser());
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://test-sepia-two-12.vercel.app",
     credentials: true,
 }));
 
